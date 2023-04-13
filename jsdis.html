@@ -7,19 +7,69 @@
     <link rel="shortcut icon" href="images/w3schools.png" type="image/x-icon">
     <title>Discovering</title>
 </head>
+<style>
+    body{
+        background-color: #b3b3;
+        text-align: center;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    #demo1{
+        margin-top: 2%;
+        background-color: grey;
+        height:300px;
+        width:30%;
+        font-size: xx-large;
+        font-weight: 800;
+        font-style: italic;
+    }
+    #demo2{
+        background-color: rgb(43, 42, 42);
+        height:300px;
+        width:30%;
+        margin-top: 2%;
+        font-size: xx-large;
+        font-weight: 800;
+        font-style: italic;
+    }
+    .center{
+        display: flex;
+        justify-content: space-around;
+    }
+</style>
 <body>
+    <div class="center">
     <p id="demo1"></p>
-    <p id="demo2"></p>
-    <script>
+    <p id="demo2"></p></div>
+    <!-- <script>
+        const fruits = ["Banana","Mango","Pineapple"];
+            document.getElementById('demo1').innerHTML = fruits.toString();
+            
+        </script> -->
+    <!-- <script>
+    const fruits = ["Banana","Mango","Pineapple"];
+        document.getElementById('demo1').innerHTML = fruits.toString();
+        
+    </script> -->
+    <!-- <script>
+        const fruits = ["Banana","Mango","Pineapple"];
+        document.getElementById('demo1').innerHTML = fruits.pop()+" "+"Juice";
+        document.getElementById('demo2').innerHTML = fruits
+    </script> -->
+    <!-- <script>
         const fruits = ["Banana" , "Orange","Apple","Mango"];
         document.getElementById('demo1').innerHTML = fruits,fruits.unshift('lemon');
         document.getElementById('demo2').innerHTML = fruits;
-    </script>
-    <script>
+    </script> -->
+ <script>
         const fruit = ["Banana" , "Orange","Apple","Mango"];
 
          document.getElementById('demo1').innerHTML = fruit.shift();
         document.getElementById('demo2').innerHTML = fruit
     </script>
+    <!--<script>
+        const fr = ["Banana" , "Orange","Apple","Mango"];
+        document.getElementById('demo1').innerHTML = fr,fr.pop();
+        document.getElementById('demo2').innerHTML = fr;
+    </script> -->
 </body>
 </html>
